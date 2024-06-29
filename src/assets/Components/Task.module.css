@@ -1,0 +1,23 @@
+.newTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 400px;
+  height: 80px;
+  background-color: #f7f7f7;
+  margin-top: 15px;
+}
+
+.task button {
+  background: none;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}

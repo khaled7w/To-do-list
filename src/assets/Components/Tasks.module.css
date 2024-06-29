@@ -1,0 +1,24 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.addTask {
+  display: flex;
+  gap: 5px;
+}
+
+.addTask button {
+  background: none;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: #837a7a;
+}
+
+.allTasks {
+  overflow: scroll;
+  height: 250px;
+}
